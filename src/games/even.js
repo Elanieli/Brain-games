@@ -11,7 +11,7 @@ const playGame = () => {
     } else {
       result = 'no';
     }
-    return [question, result];
+    return [String(question), result];
   };
   commonLogic(taskDescription, taskEven);
 };

@@ -17,7 +17,7 @@ const prime = () => {
       }
       result = 'yes';
     }
-    return [question, result];
+    return [String(question), result];
   };
   commonLogic(taskDescription, taskPrime);
 };

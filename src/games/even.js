@@ -1,19 +1,29 @@
-import commonLogic from '../index.js';
+import readlineSync from 'readline-sync';
+
+const getRandomNum = (max) => Math.floor(Math.random() * max);
 
 const playGame = () => {
-  const taskDescription = 'Answer "yes" if the number is even, otherwise answer "no".';
+  console.log('Welcome to the Brain Games!');
 
-  const taskEven = () => {
-    const question = Math.floor(Math.random() * 100);
-    let result = '';
+  const name = readlineSync.question('May I have your name? ');
+  console.log(`Hello, ${name}!`);
+  console.log('Answer "yes" if the number is even, otherwise answer "no".');
 
-    if (question % 2 === 0) {
-      result = 'yes';
+  for (let i = 0; i < 3; i += 1) {
+    const num = getRandomNum(100);
+    console.log('Question: ', num);
+    const userAnswer = readlineSync.question('Your answer: ');
+    const var1 = (num % 2 === 0 && userAnswer === 'yes');
+    const var2 = (num % 2 !== 0 && userAnswer === 'no');
+    const oppositeAnswer = (userAnswer === 'yes' ? 'no' : 'yes');
+
+    if (var1 === true || var2 === true) {
+      console.log('Correct!');
     } else {
-      result = 'no';
+      const wrongAnswer = console.log(`'${userAnswer}' is wrong answer ;(. Correct answer was '${oppositeAnswer}'. \n Let's try again, ${name}!`);
+      return wrongAnswer;
     }
-    return [question, result];
-  };
-  commonLogic(taskDescription, taskEven);
+  }
+  return console.log(`Congratulations, ${name}!`);
 };
 export default playGame;

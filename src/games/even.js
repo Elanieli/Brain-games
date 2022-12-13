@@ -5,7 +5,7 @@ const playGame = () => {
 
   const taskEven = () => {
     let result = '';
-    const question = Math.floor(Math.random() * 100);
+    const question = Math.ceil(Math.random() * (100 - 1)) + 1;
     if (question % 2 === 0) {
       result = 'yes';
     } else {

@@ -3,9 +3,9 @@
 
 <a href="https://codeclimate.com/github/Elanieli/frontend-project-44/maintainability"><img src="https://api.codeclimate.com/v1/badges/54354022d6a8dd8cb3ea/maintainability" /></a>
 
-Hello! Here is a set of little brain games. 
-To start games you need install the game. Enter on the command line: npm link. 
-After install you should type name of game (look list of games below). After it you should start game using instructions inside it.  Also you can use links below to watch more detailed instructions. Good luck!
+### Hello! Here is a set of little brain games. 
+### To start games you need install the game. Enter on the command line: npm link. 
+### After install you should type name of game (look list of games below). After it you should start game using instructions inside it.  Also you can use links below to watch more detailed instructions. Good luck!
 
 
 brain-even: https://asciinema.org/a/543382

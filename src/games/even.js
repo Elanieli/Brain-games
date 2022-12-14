@@ -4,8 +4,8 @@ const playGame = () => {
   const taskDescription = 'Answer "yes" if the number is even, otherwise answer "no".';
 
   const taskEven = () => {
+    const question = Math.floor(Math.random() * (100 - 1)) + 1;
     let result = '';
-    const question = Math.ceil(Math.random() * (100 - 1)) + 1;
     if (question % 2 === 0) {
       result = 'yes';
     } else {

@@ -8,7 +8,7 @@ const commonLogic = (taskDecription, task) => {
 
   for (let i = 0; i < 3; i += 1) {
     const taskAndResult = task();
-    console.log('Question: ', taskAndResult[0]);
+    console.log('Question:', taskAndResult[0]);
     const userAnswer = readlineSync.question('Your answer: ');
 
     if (userAnswer === taskAndResult[1]) {

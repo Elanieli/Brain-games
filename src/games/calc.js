@@ -1,4 +1,4 @@
-import commonLogic from '../index.js';
+import runEngine from '../index.js';
 
 const calc = () => {
   const taskDecription = 'What is the result of the expression?';
@@ -21,6 +21,6 @@ const calc = () => {
     }
     return [question, String(result)];
   };
-  commonLogic(taskDecription, calcTask);
+  runEngine(taskDecription, calcTask);
 };
 export default calc;

@@ -1,4 +1,4 @@
-import commonLogic from '../index.js';
+import runEngine from '../index.js';
 
 const prime = () => {
   const taskDescription = 'Answer "yes" if given number is prime. Otherwise answer "no".';
@@ -19,6 +19,6 @@ const prime = () => {
     }
     return [String(question), result];
   };
-  commonLogic(taskDescription, taskPrime);
+  runEngine(taskDescription, taskPrime);
 };
 export default prime;

@@ -1,4 +1,4 @@
-import commonLogic from '../index.js';
+import runEngine from '../index.js';
 
 const gcd = () => {
   const taskDecription = 'Find the greatest common divisor of given numbers.';
@@ -26,7 +26,7 @@ const gcd = () => {
     }
     return [question, String(result)];
   };
-  commonLogic(taskDecription, taskGcd);
+  runEngine(taskDecription, taskGcd);
 };
 
 export default gcd;

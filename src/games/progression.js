@@ -1,4 +1,4 @@
-import commonLogic from '../index.js';
+import runEngine from '../index.js';
 
 const progression = () => {
   const taskDescription = 'What number is missing in the progression?';
@@ -18,7 +18,7 @@ const progression = () => {
     question[randomQuestionIndex] = '..';
     return [question.join(' '), String(result)];
   };
-  commonLogic(taskDescription, taskProgression);
+  runEngine(taskDescription, taskProgression);
 };
 
 export default progression;

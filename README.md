@@ -32,33 +32,23 @@ Good luck!
 <h3>Video with examples of games:</h3>
 
 <ul>
-<li>brain-even: 
-<video> 
-<script id="asciicast-543382" src="https://asciinema.org/a/543382.js" async></script>
-</video> 
+<li><h2>brain-even:</h2>
+<video controls src="https://asciinema.org/a/543382"></video> 
 </li>
 
-<li>brain-calc: 
-<video controls> 
-<script id="asciicast-v6V755YV7MOzPq5JpyK84U3l7" src="https://asciinema.org/a/v6V755YV7MOzPq5JpyK84U3l7.js" async></script> 
-</video>
+<li><h2>brain-calc:</h2>
+<video controls src="https://asciinema.org/a/v6V755YV7MOzPq5JpyK84U3l7"></video>
 </li>
 
-<li>brain-gcd: 
-<video controls>
-<script id="asciicast-HR4LKDZ3kYpWWsdU3Tu6x7h1C" src="https://asciinema.org/a/HR4LKDZ3kYpWWsdU3Tu6x7h1C.js" async></script> 
-</video>
+<li><h2>brain-gcd:</h2>
+<video controls src="https://asciinema.org/a/HR4LKDZ3kYpWWsdU3Tu6x7h1C"></video>
 </li>
 
-<li>brain-progression: 
-<video controls>
-<script id="asciicast-U4dwCP5PZW4hjIGTPgo3ixitK" src="https://asciinema.org/a/U4dwCP5PZW4hjIGTPgo3ixitK.js" async></script> 
-</video>
+<li><h2>brain-progression:</h2>
+<video controls src="https://asciinema.org/a/U4dwCP5PZW4hjIGTPgo3ixitK"></video>
 </li>
 
-<li>brain-prime: 
-<video controls>
-<script id="asciicast-tHTeDotvOhdSCBXqU3iN61rHe" src="https://asciinema.org/a/tHTeDotvOhdSCBXqU3iN61rHe.js" async></script> 
-</video>
+<li><h2>brain-prime:</h2>
+<video controls src="https://asciinema.org/a/tHTeDotvOhdSCBXqU3iN61rHe"></video>
 </li>
 </ul>

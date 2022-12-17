@@ -32,23 +32,33 @@ Good luck!
 <h3>Video with examples of games:</h3>
 
 <ul>
-<li><h2>brain-even:</h2>
-<video controls src="https://asciinema.org/a/543382"></video> 
+<li><h4>brain-even:</h4>
+<video controls>
+<source src="https://asciinema.org/a/543382" type="video/cast">
+</video> 
 </li>
 
-<li><h2>brain-calc:</h2>
-<video controls src="https://asciinema.org/a/v6V755YV7MOzPq5JpyK84U3l7"></video>
+<li><h4>brain-calc:</h4>
+<video controls>
+<source src="https://asciinema.org/a/v6V755YV7MOzPq5JpyK84U3l7" type="video/cast">
+</video>
 </li>
 
-<li><h2>brain-gcd:</h2>
-<video controls src="https://asciinema.org/a/HR4LKDZ3kYpWWsdU3Tu6x7h1C"></video>
+<li><h4>brain-gcd:</h4>
+<video controls>
+<source src="https://asciinema.org/a/HR4LKDZ3kYpWWsdU3Tu6x7h1C" type="video/cast">
+</video>
 </li>
 
-<li><h2>brain-progression:</h2>
-<video controls src="https://asciinema.org/a/U4dwCP5PZW4hjIGTPgo3ixitK"></video>
+<li><h4>brain-progression:</h4>
+<video controls>
+<source src="https://asciinema.org/a/U4dwCP5PZW4hjIGTPgo3ixitK" type="video/cast">
+</video>
 </li>
 
-<li><h2>brain-prime:</h2>
-<video controls src="https://asciinema.org/a/tHTeDotvOhdSCBXqU3iN61rHe"></video>
+<li><h4>brain-prime:</h4>
+<video controls>
+<source src="https://asciinema.org/a/tHTeDotvOhdSCBXqU3iN61rHe" type="video/cast">
+</video>
 </li>
 </ul>

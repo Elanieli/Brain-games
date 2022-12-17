@@ -1,9 +1,8 @@
 {
   "name": "@hexlet/code",
   "version": "1.0.0",
-  "description": "[![Actions Status](https://github.com/Elanieli/frontend-project-44/workflows/hexlet-check/badge.svg)](https://github.com/Elanieli/frontend-project-44/actions)",
+  "description": "a set of small brain games that are connected with mathematical expressions",
   "type": "module",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

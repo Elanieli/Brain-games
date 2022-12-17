@@ -16,7 +16,7 @@
 In each of these games, you have to go through three rounds with different math questions. If you make a mistake, you will have to start this game again.
 
 <h3>installation instructions:</h3>
-<ul>
+<ol>
 <li>Enter on the command line: 'git clone'</li>
 <li>Enter on the command line: 'npm ci'</li>
 <li>Enter on the command line: 'npm link'</li>
@@ -24,19 +24,41 @@ In each of these games, you have to go through three rounds with different math 
 <li>Enter name of the game. For example: 'brain-even'</li>
 <li>Enter your name when the game asks</li>
 <li>Follow the instructions in the game</li>
-</ul>
+</ol>
 
 Good luck! 
 </p>
 
-<h3>Video with examples of games</h3>
+<h3>Video with examples of games:</h3>
 
-brain-even: <script id="asciicast-543382" src="https://asciinema.org/a/543382.js" async></script>
+<ul>
+<li>brain-even: 
+<video> 
+<script id="asciicast-543382" src="https://asciinema.org/a/543382.js" async></script>
+</video> 
+</li>
 
-brain-calc: <script id="asciicast-v6V755YV7MOzPq5JpyK84U3l7" src="https://asciinema.org/a/v6V755YV7MOzPq5JpyK84U3l7.js" async></script>
+<li>brain-calc: 
+<video controls> 
+<script id="asciicast-v6V755YV7MOzPq5JpyK84U3l7" src="https://asciinema.org/a/v6V755YV7MOzPq5JpyK84U3l7.js" async></script> 
+</video>
+</li>
 
-brain-gcd: <script id="asciicast-HR4LKDZ3kYpWWsdU3Tu6x7h1C" src="https://asciinema.org/a/HR4LKDZ3kYpWWsdU3Tu6x7h1C.js" async></script>
+<li>brain-gcd: 
+<video controls>
+<script id="asciicast-HR4LKDZ3kYpWWsdU3Tu6x7h1C" src="https://asciinema.org/a/HR4LKDZ3kYpWWsdU3Tu6x7h1C.js" async></script> 
+</video>
+</li>
 
-brain-progression: <script id="asciicast-U4dwCP5PZW4hjIGTPgo3ixitK" src="https://asciinema.org/a/U4dwCP5PZW4hjIGTPgo3ixitK.js" async></script>
+<li>brain-progression: 
+<video controls>
+<script id="asciicast-U4dwCP5PZW4hjIGTPgo3ixitK" src="https://asciinema.org/a/U4dwCP5PZW4hjIGTPgo3ixitK.js" async></script> 
+</video>
+</li>
 
-brain-prime: <script id="asciicast-tHTeDotvOhdSCBXqU3iN61rHe" src="https://asciinema.org/a/tHTeDotvOhdSCBXqU3iN61rHe.js" async></script>
+<li>brain-prime: 
+<video controls>
+<script id="asciicast-tHTeDotvOhdSCBXqU3iN61rHe" src="https://asciinema.org/a/tHTeDotvOhdSCBXqU3iN61rHe.js" async></script> 
+</video>
+</li>
+</ul>

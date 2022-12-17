@@ -1,4 +1,4 @@
-import commonLogic from '../index.js';
+import runEngine from '../index.js';
 
 const playGame = () => {
   const taskDescription = 'Answer "yes" if the number is even, otherwise answer "no".';
@@ -13,6 +13,6 @@ const playGame = () => {
     }
     return [String(question), result];
   };
-  commonLogic(taskDescription, taskEven);
+  runEngine(taskDescription, taskEven);
 };
 export default playGame;

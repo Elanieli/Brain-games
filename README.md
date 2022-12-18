@@ -34,27 +34,26 @@ Good luck!
 <ul>
 <li><h4>brain-even:</h4> 
 
-<script id="asciicast-543382" src="https://asciinema.org/a/543382.js" async></script>
+[![asciicast](https://asciinema.org/a/543382.svg)](https://asciinema.org/a/543382) 
 </li>
 
 <li><h4>brain-calc:</h4> 
 
-<script id="asciicast-v6V755YV7MOzPq5JpyK84U3l7" src="https://asciinema.org/a/v6V755YV7MOzPq5JpyK84U3l7.js" async></script>
+[![asciicast](https://asciinema.org/a/v6V755YV7MOzPq5JpyK84U3l7.svg)](https://asciinema.org/a/v6V755YV7MOzPq5JpyK84U3l7) 
 </li>
 
 <li><h4>brain-gcd:</h4> 
 
-<script id="asciicast-HR4LKDZ3kYpWWsdU3Tu6x7h1C" src="https://asciinema.org/a/HR4LKDZ3kYpWWsdU3Tu6x7h1C.js" async></script>
+[![asciicast](https://asciinema.org/a/HR4LKDZ3kYpWWsdU3Tu6x7h1C.svg)](https://asciinema.org/a/HR4LKDZ3kYpWWsdU3Tu6x7h1C) 
 </li>
 
 <li><h4>brain-progression:</h4> 
 
-<script id="asciicast-U4dwCP5PZW4hjIGTPgo3ixitK" src="https://asciinema.org/a/U4dwCP5PZW4hjIGTPgo3ixitK.js" async></script>
-
+[![asciicast](https://asciinema.org/a/U4dwCP5PZW4hjIGTPgo3ixitK.svg)](https://asciinema.org/a/U4dwCP5PZW4hjIGTPgo3ixitK) 
 </li>
 
 <li><h4>brain-prime:</h4> 
 
-<script id="asciicast-tHTeDotvOhdSCBXqU3iN61rHe" src="https://asciinema.org/a/tHTeDotvOhdSCBXqU3iN61rHe.js" async></script>
+[![asciicast](https://asciinema.org/a/tHTeDotvOhdSCBXqU3iN61rHe.svg)](https://asciinema.org/a/tHTeDotvOhdSCBXqU3iN61rHe) 
 </li>
 </ul>

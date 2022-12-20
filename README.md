@@ -15,9 +15,17 @@
 
 In each of these games, you have to go through three rounds with different math questions. If you make a mistake, you will have to start this game again.
 
-<h3>installation instructions:</h3>
+<h3>Requirements:</h3>
+<ul>
+<li>Nodejs</li>
+<li>Make</li>
+<li>Ubuntu, Macos or WSL (for Windows)</li>
+</ul>
+
+<h3>Setup:</h3>
 <ol>
-<li>Enter on the command line: 'git clone'</li>
+<li>Enter on the command line: 'git clone git@github.com:Elanieli/frontend-project-44.git'</li>
+<li>Enter on the command line: 'cd frontend-project-44'</li>
 <li>Enter on the command line: 'npm ci'</li>
 <li>Enter on the command line: 'npm link'</li>
 <li>Select the game from the list above</li>

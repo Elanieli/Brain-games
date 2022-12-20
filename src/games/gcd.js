@@ -3,8 +3,8 @@ import runEngine from '../index.js';
 const gcd = () => {
   const taskDecription = 'Find the greatest common divisor of given numbers.';
   const taskGcd = () => {
-    let firstNum = Math.ceil(Math.random() * 40);
-    let secondNum = Math.ceil(Math.random() * 35);
+    let firstNum = Math.ceil(Math.random() * (40 - 1) + 1);
+    let secondNum = Math.ceil(Math.random() * (35 - 1) + 1);
     const question = `${firstNum} ${secondNum}`;
     let result;
 

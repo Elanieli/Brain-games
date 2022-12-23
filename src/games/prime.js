@@ -1,24 +1,29 @@
 import runEngine from '../index.js';
+import getRandomInRange from '../utils.js';
 
-const prime = () => {
-  const taskDescription = 'Answer "yes" if given number is prime. Otherwise answer "no".';
-  const taskPrime = () => {
-    const question = Math.ceil(Math.random() * (100 - 2)) + 2;
-    let result = '';
+const taskDescription = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 
-    if (question === 2) {
-      result = 'yes';
-      return result;
+const isPrime = (question) => {
+  let result = '';
+  const num = Number(question);
+  if (num === 2) {
+    result = 'yes';
+    return result;
+  }
+  for (let i = 2; i < question; i += 1) {
+    if (num % i === 0) {
+      result = 'no';
+      break;
     }
-    for (let i = 2; i < question; i += 1) {
-      if (question % i === 0) {
-        result = 'no';
-        break;
-      }
-      result = 'yes';
-    }
-    return [String(question), result];
-  };
-  runEngine(taskDescription, taskPrime);
+    result = 'yes';
+  }
+  return result;
 };
-export default prime;
+
+const generateRound = () => {
+  const question = String(getRandomInRange(2, 100));
+  const answer = isPrime(question);
+  return [question, answer];
+};
+
+export default () => runEngine(taskDescription, generateRound);

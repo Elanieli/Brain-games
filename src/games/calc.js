@@ -1,26 +1,37 @@
 import runEngine from '../index.js';
+import getRandomInRange from '../utils.js';
 
-const calc = () => {
-  const taskDecription = 'What is the result of the expression?';
-  const calcTask = () => {
-    const symbol = ['+', '-', '*'];
-    const randomSybol = symbol[Math.floor(Math.random() * symbol.length)];
-    const firstNum = Math.ceil(Math.random() * 15);
-    const secondNum = Math.ceil(Math.random() * 10);
-    const question = `${firstNum} ${randomSybol} ${secondNum}`;
-    let result = 0;
+const taskDecription = 'What is the result of the expression?';
 
-    if (randomSybol === '+') {
-      result = firstNum + secondNum;
-    }
-    if (randomSybol === '-') {
-      result = firstNum - secondNum;
-    }
-    if (randomSybol === '*') {
-      result = firstNum * secondNum;
-    }
-    return [question, String(result)];
-  };
-  runEngine(taskDecription, calcTask);
+const getOperator = () => {
+  const operators = ['+', '-', '*'];
+  return operators[getRandomInRange(0, operators.length)];
 };
-export default calc;
+
+const calc = (firstNum, secondNum, randomOperator) => {
+  let result = 0;
+  switch (randomOperator) {
+    case '+':
+      result = firstNum + secondNum;
+      break;
+    case '-':
+      result = firstNum - secondNum;
+      break;
+    case '*':
+      result = firstNum * secondNum;
+      break;
+    default:
+  }
+  return result;
+};
+
+const generateRound = () => {
+  const firstNum = getRandomInRange(0, 15);
+  const secondNum = getRandomInRange(0, 10);
+  const randomOperator = getOperator();
+  const question = `${firstNum} ${randomOperator} ${secondNum}`;
+  const answer = String(calc(firstNum, secondNum, randomOperator));
+  return [question, answer];
+};
+
+export default () => runEngine(taskDecription, generateRound);

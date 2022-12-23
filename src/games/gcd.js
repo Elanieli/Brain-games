@@ -1,32 +1,38 @@
 import runEngine from '../index.js';
+import getRandomInRange from '../utils.js';
 
-const gcd = () => {
-  const taskDecription = 'Find the greatest common divisor of given numbers.';
-  const taskGcd = () => {
-    let firstNum = Math.ceil(Math.random() * (40 - 1) + 1);
-    let secondNum = Math.ceil(Math.random() * (35 - 1) + 1);
-    const question = `${firstNum} ${secondNum}`;
-    let result;
+const taskDecription = 'Find the greatest common divisor of given numbers.';
 
-    while (firstNum !== secondNum) {
-      if (firstNum === 0) {
-        result = secondNum;
-        break;
-      }
-      if (secondNum === 0) {
-        result = firstNum;
-        break;
-      }
-      if (firstNum > secondNum) {
-        firstNum -= secondNum;
-      } else {
-        secondNum -= firstNum;
-      }
-      result = firstNum;
+const calc = (firstNum, secondNum) => {
+  let result;
+  let num1 = firstNum;
+  let num2 = secondNum;
+
+  while (num1 !== num2) {
+    if (num1 === 0) {
+      result = secondNum;
+      break;
     }
-    return [question, String(result)];
-  };
-  runEngine(taskDecription, taskGcd);
+    if (num2 === 0) {
+      result = num1;
+      break;
+    }
+    if (num1 > num2) {
+      num1 -= num2;
+    } else {
+      num2 -= num1;
+    }
+    result = num1;
+  }
+  return result;
 };
 
-export default gcd;
+const generateRound = () => {
+  const firstNum = getRandomInRange(1, 40);
+  const secondNum = getRandomInRange(1, 35);
+  const question = `${firstNum} ${secondNum}`;
+  const answer = String(calc(firstNum, secondNum));
+  return [question, answer];
+};
+
+export default () => runEngine(taskDecription, generateRound);

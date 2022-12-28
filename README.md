@@ -40,7 +40,7 @@ In each of these games, you have to go through three rounds with different math 
 > brain-even
 
 7. Enter your name when the game asks
-8. Follow the instructions in the gam
+8. Follow the instructions in the game
 
 
 Good luck! 

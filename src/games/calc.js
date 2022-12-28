@@ -9,20 +9,15 @@ const getOperator = () => {
 };
 
 const calc = (firstNum, secondNum, randomOperator) => {
-  let result = 0;
   switch (randomOperator) {
     case '+':
-      result = firstNum + secondNum;
-      break;
+      return firstNum + secondNum;
     case '-':
-      result = firstNum - secondNum;
-      break;
+      return firstNum - secondNum;
     case '*':
-      result = firstNum * secondNum;
-      break;
-    default:
+      return firstNum * secondNum;
+    default: throw new Error(`Operator ${randomOperator} - is invalid`);
   }
-  return result;
 };
 
 const generateRound = () => {

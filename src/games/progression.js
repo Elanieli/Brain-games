@@ -3,23 +3,24 @@ import getRandomInRange from '../utils.js';
 
 const taskDescription = 'What number is missing in the progression?';
 
-const calc = (a, b, randomStep) => {
-  const question = [];
-  for (let i = Math.min(a, b); i < Math.max(a, b) * 10 && question.length < 11; i += randomStep) {
-    question.push(String(i));
+const getProgression = (num, length, randomStep) => {
+  const result = [];
+  for (let i = num; result.length <= length; i += randomStep) {
+    result.push(String(i));
   }
-  return question;
+  return result;
 };
 
 const generateRound = () => {
   const randomStep = getRandomInRange(1, 5);
   const firstNum = getRandomInRange(1, 15);
-  const secondNum = getRandomInRange(1, 10);
-  const question = calc(firstNum, secondNum, randomStep);
-  const randomQuestionIndex = getRandomInRange(0, question.length);
-  const answer = String(question[randomQuestionIndex]);
-  question[randomQuestionIndex] = '..';
-  return [question.join(' '), answer];
+  const secondNum = getRandomInRange(5, 10);
+  const result = getProgression(firstNum, secondNum, randomStep);
+  const randomQuestionIndex = getRandomInRange(0, result.length);
+  const answer = String(result[randomQuestionIndex]);
+  result[randomQuestionIndex] = '..';
+  const question = result.join(' ');
+  return [question, answer];
 };
 
 export default () => runEngine(taskDescription, generateRound);
